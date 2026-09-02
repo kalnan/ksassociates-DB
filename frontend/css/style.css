@@ -1,5 +1,5 @@
 :root {
-  --ink: #14213D;
+  --ink: #eaedf2;
   --ink-2: #1D2E4F;
   --ink-3: #26375C;
   --parchment: #F7F5F0;
@@ -291,7 +291,7 @@ input:focus-visible {
 .btn-brass { background: var(--brass); color: #fff; }
 .btn-brass:hover { background: #9c7a49; }
 
-.btn-ghost { background: transparent; color: #eaedf2; border-color: var(--line); }
+.btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
 .btn-ghost:hover { background: var(--parchment-2); }
 
 .btn-danger-ghost { background: transparent; color: var(--danger); border-color: rgba(178, 58, 72, 0.35); }
